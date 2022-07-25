@@ -1,0 +1,37 @@
+
+
+.form-container{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    z-index: 999;
+}
+.form-container form{
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+
+.capa{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.close{
+    cursor: pointer;
+}
+
+/* button{
+    cursor: pointer;
+} */
